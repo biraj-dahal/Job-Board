@@ -25,7 +25,7 @@ This project is a Job Board Application where:
 - **Kubernetes**: For managing containers, load balancing, and scaling.
 
 ## Project Structure
-- **job-board-app/**
+- **Job-Board/**
 ├── backend/
 │   ├── Dockerfile
 │   ├── nestjs-app/    # NestJS backend code
@@ -39,3 +39,4 @@ This project is a Job Board Application where:
     ├── backend-deployment.yml
     ├── frontend-deployment.yml
     ├── postgres-deployment.yml
+

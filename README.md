@@ -25,18 +25,21 @@ This project is a Job Board Application where:
 - **Kubernetes**: For managing containers, load balancing, and scaling.
 
 ## Project Structure
-- **Job-Board/**
-├── backend/
-│   ├── Dockerfile
-│   ├── nestjs-app/    # NestJS backend code
-├── frontend/
-│   ├── Dockerfile
-│   ├── angular-app/   # Angular frontend code
-├── database/
-│   ├── docker-compose.yml
-│   ├── init.sql       # SQL to initialize the database
-└── kubernetes/
-    ├── backend-deployment.yml
-    ├── frontend-deployment.yml
-    ├── postgres-deployment.yml
+
+| **Directory/File**          | **Description**                             |
+|-----------------------------|---------------------------------------------|
+| **backend/**                | Contains backend-related files              |
+| ├── **Dockerfile**          | Dockerfile for the backend                  |
+| ├── **nestjs-app/**         | NestJS backend code                         |
+| **frontend/**               | Contains frontend-related files             |
+| ├── **Dockerfile**          | Dockerfile for the frontend                 |
+| ├── **angular-app/**        | Angular frontend code                       |
+| **database/**               | Contains database-related files             |
+| ├── **docker-compose.yml**  | Docker Compose configuration                |
+| ├── **init.sql**            | SQL to initialize the database              |
+| **kubernetes/**             | Contains Kubernetes deployment files        |
+| ├── **backend-deployment.yml** | Kubernetes deployment for backend        |
+| ├── **frontend-deployment.yml**| Kubernetes deployment for frontend       |
+| ├── **postgres-deployment.yml**| Kubernetes deployment for PostgreSQL     |
+
 
